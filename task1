@@ -1,0 +1,6 @@
+def fact(a):
+    if a>0:
+        return a*fact(a-1)
+    else:
+        return 1
+print("Factorial of is:",fact(int(input("Enter a number: "))))
